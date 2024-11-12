@@ -2,13 +2,12 @@ import Link from "./Link";
 import Route from "./Route";
 import { Router } from "./Router";
 
-// const Home = () => <h2>Home</h2>;
-const Home = () => {
-  return <Navigate to="/topics" />;
-};
+const Home = () => <h2>Home</h2>;
+// const Home = () => {
+//   return <Navigate to="/topics" />;
+// };
 
 const About = () => <h2>About</h2>;
-
 const Topic = ({ topicId }) => <h3>{topicId}</h3>;
 
 const Topics = ({ match }) => {
